@@ -55,6 +55,32 @@ fun WeatherDetailScreen(
             verticalArrangement = Arrangement.spacedBy(16.dp)
         ) {
             Card(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .height(180.dp),  // Taller card
+                elevation = CardDefaults.cardElevation(defaultElevation = 6.dp)
+            ) {
+                Column(
+                    modifier = Modifier
+                        .fillMaxSize()
+                        .padding(16.dp),
+                    horizontalAlignment = Alignment.CenterHorizontally,
+                    verticalArrangement = Arrangement.Center
+                ) {
+                    Text(
+                        text = "${forecast.main.temperature.roundToInt()}°",
+                        style = MaterialTheme.typography.displayLarge,  // BIG FONT
+                        fontWeight = FontWeight.Bold
+                    )
+                    Text(
+                        text = stringResource(R.string.feels_like) + ": ${forecast.main.feelsLike.roundToInt()}°",
+                        style = MaterialTheme.typography.titleMedium,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant
+                    )
+                }
+            }
+
+            Card(
                 modifier = Modifier.fillMaxWidth(),
                 elevation = CardDefaults.cardElevation(defaultElevation = 4.dp)
             ) {
