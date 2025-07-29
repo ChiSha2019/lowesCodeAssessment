@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Weather App</string>
+    
+    <!-- Weather Search Screen -->
+    <string name="weather_forecast">Weather Forecast</string>
+    <string name="enter_city_name">Enter city name</string>
+    <string name="look_up">Look up</string>
+    
+    <!-- Weather Forecast List Screen -->
+    <string name="weather_in">Weather in %1$s</string>
+    <string name="back">Back</string>
+    <string name="no_weather_data">No weather data available</string>
+    
+    <!-- Weather Detail Screen -->
+    <string name="weather_details">%1$s Weather Details</string>
+    <string name="temperature_details">Temperature Details</string>
+    <string name="environmental_conditions">Environmental Conditions</string>
+    <string name="wind_information">Wind Information</string>
+    <string name="additional_information">Additional Information</string>
+    <string name="no_forecast_data">No forecast data available</string>
+    
+    <!-- Weather Detail Labels -->
+    <string name="temperature">Temperature</string>
+    <string name="feels_like">Feels Like</string>
+    <string name="min_temperature">Min Temperature</string>
+    <string name="max_temperature">Max Temperature</string>
+    <string name="humidity">Humidity</string>
+    <string name="pressure">Pressure</string>
+    <string name="sea_level_pressure">Sea Level Pressure</string>
+    <string name="ground_level_pressure">Ground Level Pressure</string>
+    <string name="cloudiness">Cloudiness</string>
+    <string name="wind_speed">Wind Speed</string>
+    <string name="wind_direction">Wind Direction</string>
+    
+    <!-- Units -->
+    <string name="temperature_fahrenheit">%1$d°F</string>
+    <string name="percentage">%1$d%%</string>
+    <string name="pressure_hpa">%1$d hPa</string>
+    <string name="wind_speed_mph">%1$.1f mph</string>
+    <string name="wind_direction_degrees">%1$d° %2$s</string>
+    
+    <!-- Wind Directions -->
+    <string name="wind_n">N</string>
+    <string name="wind_nne">NNE</string>
+    <string name="wind_ne">NE</string>
+    <string name="wind_ene">ENE</string>
+    <string name="wind_e">E</string>
+    <string name="wind_ese">ESE</string>
+    <string name="wind_se">SE</string>
+    <string name="wind_sse">SSE</string>
+    <string name="wind_s">S</string>
+    <string name="wind_ssw">SSW</string>
+    <string name="wind_sw">SW</string>
+    <string name="wind_wsw">WSW</string>
+    <string name="wind_w">W</string>
+    <string name="wind_wnw">WNW</string>
+    <string name="wind_nw">NW</string>
+    <string name="wind_nnw">NNW</string>
+</resources>
